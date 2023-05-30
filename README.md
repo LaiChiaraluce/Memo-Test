@@ -5,8 +5,8 @@
    <h4>Desarrollador: Estanislao Chiaraluce 👨🏽‍💻</h4>
    
    <h2> Dinámica del juego </h2>
-   <p>Se trata del clásico juego en el cual se nos mostrarán una serie de tarjetas con imágenes, las cuales seran volteadas luego de un segundo. El usuario
-debe comenzar a clickearlas para girarlas. Cuando logre girar de forma consecutiva dos tarjetas iguales, las mismas permanecerán en esta posición, mostrando su    imagen; por el contrario, si el usuario clickea tarjetas que tienen distintas imágenes, éstas volverán a girarse boca abajo. El usuario logra ganar la partida una vez que consigue girar boca arriba todas las tarjetas del juego</p>
+   <p>Se trata del clásico juego en el cual se nos mostrarán una serie de tarjetas con imágenes, las cuales serán volteadas luego de un segundo. El usuario
+debe comenzar a clickearlas para girarlas. Cuando logre girar de forma consecutiva dos tarjetas iguales, las mismas permanecerán en esta posición, mostrando su    imagen; por el contrario, si el usuario clickea tarjetas que tienen distintas imágenes, éstas volverán a girarse boca abajo. El usuario logra ganar la partida una vez que consigue girar boca arriba todas las tarjetas del juego.</p>
 
 <h2>Niveles de juego 💪🏼</h2>
 <ul>
