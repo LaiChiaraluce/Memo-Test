@@ -18,5 +18,5 @@ debe comenzar a clickearlas para girarlas. Cuando logre girar de forma consecuti
 <h2>Bonus Extra: cronómetro ⏱️ </h2>
 <p>El tiempo que demore el jugador en completar la partida será cronometrado y posteriormente anunciado en el mensaje que se muestra al final del juego</p>
 <br>
-<img src="https://github.com/LaiChiaraluce/Memo-Test/assets/105081652/155dcacf-68cb-43b5-9094-0a209ce970db" align="center" heigth=500px width=800px>
-<img src="https://github.com/LaiChiaraluce/Memo-Test/assets/105081652/29079261-8f72-4a51-ad02-fb3a0e019a9f" align="center" heigth=500px width=800px>
+<img src="https://github.com/LaiChiaraluce/Memo-Test/assets/105081652/155dcacf-68cb-43b5-9094-0a209ce970db" margin="0px auto" heigth=500px width=800px>
+<img src="https://github.com/LaiChiaraluce/Memo-Test/assets/105081652/29079261-8f72-4a51-ad02-fb3a0e019a9f" margin="0px auto" heigth=500px width=800px>
