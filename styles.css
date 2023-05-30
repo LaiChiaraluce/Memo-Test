@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #898dc8 0%, #06174b 100%)
+}
+
+h1{
+    margin: 30px 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 15px 0px;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+}
+
+h1 i{
+    font-size: 25px;
+}
+
+.container-btn-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#botonera{
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#botonera button{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    background-color: #0066cc;
+    color: #FFFFFF;
+    transition: all .3s;
+}
+
+#botonera button:hover{
+    background-color: #004d99;
+}
+
+a{
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    transition: all .5s;
+}
+
+a:hover{    
+    background-color: #0066cc;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.container-facil, .container-medio, .container-dif{
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 15px;
+}
+
+.container-facil{
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.container-medio{
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.container-dif{
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.container-inst{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.container-inst ul{
+    list-style: none;
+}
+
+.container-inst ul li{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.cajas{
+    min-width: 100px;
+    min-height: 100px;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
+#cronometro{
+    margin: 20px 0px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.msj-victoria{
+    background-color: #009900;
+    color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+    font-size: 30px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+@keyframes dar-vuelta {
+    0%{
+        transform: rotateY(0deg);
+    }
+    25%{
+        transform: rotateY(90deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes dar-vuelta-rev {
+    0%{
+        transform: rotateY(0deg);
+    }
+    25%{
+        transform: rotateY(90deg);
+    }
+    50%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    #botonera{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .msj-victoria{
+        font-size: 24px;
+    }
+
+    .container-facil, .container-medio, .container-dif{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+@media screen and (min-width: 500px) and (max-width: 1000px){
+
+    #botonera{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .msj-victoria{
+        font-size: 24px;
+    }
+
+    .container-facil, .container-medio{
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .container-dif{
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
