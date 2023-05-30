@@ -9,7 +9,8 @@
 debe comenzar a clickearlas para girarlas. Cuando logre girar de forma consecutiva dos tarjetas iguales, las mismas permanecerán en esta posición, mostrando su    imagen; por el contrario, si el usuario clickea tarjetas que tienen distintas imágenes, éstas volverán a girarse boca abajo. El usuario logra ganar la partida una vez que consigue girar boca arriba todas las tarjetas del juego.</p>
 
 <h2>Imágenes de las tarjetas</h2>
-🇦🇷
+![ale](https://github.com/LaiChiaraluce/Memo-Test/assets/105081652/a6ac136c-bbc1-4124-a35e-b8aea9c0d98c)
+
 
 <h2>Niveles de juego 💪🏼</h2>
 <ul>
