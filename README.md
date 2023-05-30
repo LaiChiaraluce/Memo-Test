@@ -1,7 +1,7 @@
 # <h1 align="center">Memo-Test</h1>
    Proyecto realizado para la tercera entrega de la asignatura Laboratorio III, Tecnicatura Universitaria en Programación (Facultad Regional San Nicolás)
    
-   <h4>Tecnología utilizada: HTML, CSS y JavaScript </h4>
+   <h4>Tecnologías utilizada: HTML, CSS y JavaScript </h4>
    <h4>Desarrollador: Estanislao Chiaraluce 👨🏽‍💻</h4>
    
    <h2> Dinámica del juego </h2>
