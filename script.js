@@ -3,6 +3,23 @@ const btnDif = document.querySelector("#btnDif");
 const btnMed = document.querySelector("#btnMed");
 const btnFac = document.querySelector("#btnFac");
 const cronometro = document.querySelector("#cronometro")
+const imagenesOriginal = [
+        "url(images/arg.png)", "url(images/arg.png)",
+        "url(images/bol.png)", "url(images/bol.png)",
+        "url(images/bra.png)", "url(images/bra.png)",
+        "url(images/par.png)", "url(images/par.png)",
+        "url(images/uru.png)", "url(images/uru.png)",
+        "url(images/mex.png)", "url(images/mex.png)",
+        "url(images/eng.png)", "url(images/eng.png)",
+        "url(images/esp.png)", "url(images/esp.png)",
+        "url(images/fra.png)", "url(images/fra.png)",
+        "url(images/usa.png)", "url(images/usa.png)",
+        "url(images/can.png)", "url(images/can.png)",
+        "url(images/ale.png)", "url(images/ale.png)",
+        "url(images/hol.png)", "url(images/hol.png)",
+        "url(images/chi.png)", "url(images/chi.png)",
+        "url(images/sue.png)", "url(images/sue.png)",
+    ]
 
 const clases = ["container-facil", "container-medio", "container-dif"];
 
@@ -51,25 +68,9 @@ function limpiarContainer(){
 
 function agregarCajas(num){
 
-    contador = 0;
+    let imagenes = [...imagenesOriginal];
 
-    let imagenes = [
-        "url(images/arg.png)", "url(images/arg.png)",
-        "url(images/bol.png)", "url(images/bol.png)",
-        "url(images/bra.png)", "url(images/bra.png)",
-        "url(images/par.png)", "url(images/par.png)",
-        "url(images/uru.png)", "url(images/uru.png)",
-        "url(images/mex.png)", "url(images/mex.png)",
-        "url(images/eng.png)", "url(images/eng.png)",
-        "url(images/esp.png)", "url(images/esp.png)",
-        "url(images/fra.png)", "url(images/fra.png)",
-        "url(images/usa.png)", "url(images/usa.png)",
-        "url(images/can.png)", "url(images/can.png)",
-        "url(images/ale.png)", "url(images/ale.png)",
-        "url(images/hol.png)", "url(images/hol.png)",
-        "url(images/chi.png)", "url(images/chi.png)",
-        "url(images/sue.png)", "url(images/sue.png)",
-    ]
+    contador = 0;
 
     if(num === NUM_MED){
         imagenes = imagenes.slice(0, NUM_MED);
